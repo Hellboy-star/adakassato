@@ -22,7 +22,13 @@
       </a>
     </li>
     <li>
-      <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+      <a href="{{('/galerie')}}">
+        <i class="nc-icon nc-album-2"></i>
+        <p>Galeries</p>
+      </a>
+    </li>
+    <li>
+      <a href="/souscription">
         <i class="nc-icon nc-money-coins"></i>
         <p>Souscription</p>
       </a>
@@ -54,7 +60,7 @@
 
 <div class="card">
     <div class="card-header">
-        <h4>Ensemble des Prédications</h4>
+        <h4>Ensemble des Evènements</h4>
     </div>
     <div class="card-body">
         <div class="table-responsive">

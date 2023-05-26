@@ -1,0 +1,65 @@
+<nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{('/')}}">Temple La Bénédiction d'Akassato</a>
+		<div class="collapse navbar-collapse" id="navigation-example-2">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="{{('/')}}">
+              Acceuil
+            </a>
+          </li>
+          <li>
+            <a href="{{('/sujet')}}">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="{{('/evenement')}}">
+              Evènements
+            </a>
+          </li>
+          <li>
+            <a href="{{('/predication')}}">
+              Prédications
+            </a>
+          </li>
+          <li>
+            <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+              Souscriptions
+            </a>
+          </li>
+          <!-- <li>
+            <a href="{{('/contact')}}">
+              Contact
+            </a>
+          </li> -->
+          <li>
+            <a href="{{('/apropos')}}">
+              A Propos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navigation-example-2">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-facebook"></i></a>
+        </li>
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-->
+</nav>  

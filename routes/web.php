@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\DashController;
 use App\Http\Controllers\EvenController;
+use App\Http\Controllers\GalerieController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PrediController;
 use App\Http\Controllers\ProfileController;
@@ -32,6 +34,8 @@ Route::resource('/souscription', SousController::class);
 Route::resource('/blog', BlogController::class);
 Route::resource('/apropos', ProposController::class);
 Route::resource('/sujet', SujetsController::class);
+Route::resource('/galerie', GalerieController::class);
+Route::resource('/comment', CommentController::class);
 
 
 // Route::get('/', function () {
@@ -56,6 +60,7 @@ Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/sujet', [SujetsController::class, 'index'])->name('sujets');
 Route::get('/formulaire', [ProfileController::class, 'form'])->name('formulaire');
 Route::get('/apropos', [ProposController::class, 'index'])->name('apropos');
+Route::get('/galerie', [GalerieController::class, 'index'])->name('galerie');
 Route::get('/contact', [ProposController::class, 'contact'])->name('contact');
 Route::get('/e-predi/{predication}', [PrediController::class, 'view'] );
 //Route::get('/view', [PrediController::class, 'view'])->name('apropos');

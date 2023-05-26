@@ -21,8 +21,14 @@
         <p>Evènements</p>
       </a>
     </li>
+    <li>
+      <a href="{{('/galerie')}}">
+        <i class="nc-icon nc-album-2"></i>
+        <p>Galeries</p>
+      </a>
+    </li>
     <li class="active ">
-      <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+      <a href="/souscription">
         <i class="nc-icon nc-money-coins"></i>
         <p>Souscription</p>
       </a>
@@ -54,19 +60,21 @@
 @section('contenta')
 <div class="container">
   <div class="row">
-    <div class="col-md-9"></div>
-    <div class="col-md-3">
-      <!-- <button id="pay-btn"
+    <div class="col-md-9">
+      <h1 class="info-text">PAGE ACTUELLEMENT INDISPONIBLE</h1>
+    </div>
+    <!-- <div class="col-md-3">
+      <button id="pay-btn"
         data-transaction-amount="1000"
         data-transaction-description="Buy my product"
         data-customer-email="johndoe@gmail.com"
         data-customer-lastname="Doe"
         >Pay 1000 FCFA
-      </button> -->
-      <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+      </button>
+      <a href="/souscription">
         <button>Faire un don</button>
       </a>
-    </div>
+    </div> -->
   </div>
 </div>
 

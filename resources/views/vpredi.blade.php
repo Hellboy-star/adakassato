@@ -22,7 +22,7 @@
       </a>
     </li>
     <li>
-      <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+      <a href="/souscription">
         <i class="nc-icon nc-money-coins"></i>
         <p>Souscription</p>
       </a>
@@ -63,8 +63,8 @@
                       <div class="col-md-12" style="text-align: center;">
                         {{$ids->name}}
                       </div>
-                      <div class="col-md-12" >
-                        <video width="auto" height="auto" controls autoplay>
+                      <div class="col-md-12" style="text-align: center;">
+                        <video width="300" height="200" controls autoplay>
                            <source src="{{asset('assets')}}/{{$ids->file}}" type=video/mp4>
                         </video>
                       </div>
@@ -75,15 +75,15 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <form action="" method="post">
+                                <form action="{{route('comment.store')}}" method="post">
                                     @csrf
                                     <div>
                                       <label>Nom d'utilisateur:</label>
-                                      <input name="" id="" class="form-control @error('content') is-invallid @enderror "/>
+                                      <input name="name" id="name" class="form-control @error('content') is-invallid @enderror "/>
                                     </div>
                                     <div class="form-group">
                                         <label for="">Ajouter un commentaire:</label>
-                                        <textarea name="" id="" class="form-control @error('content') is-invallid @enderror " ></textarea>
+                                        <textarea name="commentaire" id="commentaire" class="form-control @error('content') is-invallid @enderror " ></textarea>
                                         @error('content')
                                             <div class="invalid-feedback"> {{$error->first('content')}} </div>
                                         @enderror

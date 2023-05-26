@@ -1,0 +1,63 @@
+<nav class="navbar navbar-ct-transparent" role="navigation-demo" id="demo-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+          <span class="sr-only">Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="{{('/')}}">
+          <div class="logo-container">
+            <div class="logo">
+              <img src="assets/paper_img/03.webp" alt="Assemblée de Dieu Logo">
+            </div>
+            <div class="brand">
+              Temple La Bénédiction
+            </div>
+          </div>
+        </a>
+		  
+      </div>
+
+      <div class="collapse navbar-collapse" id="navigation-example-2">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="{{('/')}}">
+              Acceuil
+            </a>
+          </li>
+          <li>
+            <a href="{{('/sujet')}}">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="{{('/evenement')}}">
+              Evènements
+            </a>
+          </li>
+          <li>
+            <a href="{{('/predication')}}">
+              Prédications
+            </a>
+          </li>
+          <li>
+            <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+              Souscriptions
+            </a>
+          </li>
+          <!-- <li>
+            <a href="{{('/contact')}}">
+              Contact
+            </a>
+          </li> -->
+          <li>
+            <a href="{{('/apropos')}}">
+              A Propos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

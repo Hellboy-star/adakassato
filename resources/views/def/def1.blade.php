@@ -43,11 +43,40 @@
     <div class="collapse navbar-collapse" id="navigation-example-2">
       <ul class="nav navbar-nav navbar-right">
         <li>
-            <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-twitter"></i></a>
+          <a href="{{('/')}}">
+            Acceuil
+          </a>
         </li>
         <li>
-            <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-facebook"></i></a>
+          <a href="{{('/evenement')}}">
+            Evènements
+          </a>
         </li>
+        <li>
+          <a href="{{('/predication')}}">
+            Prédications
+          </a>
+        </li>
+        <li>
+          <a href="{{('/souscription')}}">
+            Souscriptions
+          </a>
+        </li>
+        <!-- <li>
+          <a href="{{('/contact')}}">
+            Contact
+          </a>
+        </li> -->
+        <li>
+          <a href="{{('/apropos')}}">
+            A Propos
+          </a>
+        </li>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://www.facebook.com/eeadakassato" target="_blank" >facebook <i class="fa fa-facebook"></i> </a>
+          <a class="dropdown-item" href="https://www.twitter.com/eeadakassato" target="_blank" >twitter <i class="fa fa-twitter"></i> </a>
+          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+        </div>
        </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-->

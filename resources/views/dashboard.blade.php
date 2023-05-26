@@ -1,4 +1,4 @@
-@extends('def.def', ['titre'=>'Evènements'])
+@extends('def.def', ['titre'=>'Tableau de bord'])
 
 @section('content')
 <div class="sidebar-wrapper">
@@ -22,7 +22,13 @@
       </a>
     </li>
     <li>
-      <a href="https://sandbox-me.fedapay.com/CuOUfHcE">
+      <a href="{{('/galerie')}}">
+        <i class="nc-icon nc-album-2"></i>
+        <p>Galeries</p>
+      </a>
+    </li>
+    <li>
+      <a href="/souscription">
         <i class="nc-icon nc-money-coins"></i>
         <p>Souscription</p>
       </a>

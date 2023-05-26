@@ -16,6 +16,7 @@
   <link href="{{asset('assets/css/paper-dashboard.css?v=2.0.1')}}" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="{{asset('assets/demo/demo.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/plugins/dropzone/dist/min/dropzone.min.css')}}" rel="stylesheet" />
   <?php
   header("refresh: 360");
    ?>
@@ -100,11 +101,9 @@
       </nav>
       <!-- End Navbar -->
       <div class="content">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              @yield('contenta')
-            </div>
+        <div class="container">
+          <div class="row">
+            @yield('contenta')
           </div>
         </div>
       </div>
@@ -141,6 +140,7 @@
   <script src="{{asset('assets/js/plugins/bootstrap-notify.js')}}"></script>
   <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="{{asset('assets/js/paper-dashboard.min.js?v=2.0.1')}}" type="text/javascript"></script>
+  <script src="{{asset('assets/plugins/dropzone/dist/min/dropzone.min.js')}}"></script>
 </body>
 
 </html>
